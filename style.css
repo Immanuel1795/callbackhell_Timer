@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.counter-container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.timer-box{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: #D5F3FE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timer-display{
+    font-size: 150px;
+    color: #673AB7;
+    text-align: center;
+}
+
+.counter{
+    background: #673AB7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #512DA8, #673AB7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #512DA8, #673AB7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    height: 500px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.button{
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.complete{
+    font-size: 40px;
+}
+
